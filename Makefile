@@ -1,8 +1,8 @@
-service-name := credit-simulator-api
+service-name := credit-simulator-3-api
 image := $(service-name)-img
 container := $(service-name)-con
 port_in := 8080
-port_out := 5100
+port_out := 6203
 jar_name := creditSimulator-0.0.1.jar
 docker_memory := 1024MB
 java_memory := -Xmx1024m

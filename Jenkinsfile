@@ -13,7 +13,7 @@ pipeline {
                 }
             }
         }
-        stage('Build Image') {
+        stage('Running unit test') {
 			steps {
 				sh "make test"
 			}
